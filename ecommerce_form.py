@@ -55,9 +55,9 @@ class OnlinePurchase:
 if __name__ == "__main__":
     op = OnlinePurchase()
 
-    #RF8 procesar compra, positivo
-    Purchase = op.process_purchase({"Mouse":1}, "DISCOUNT10", "Av Juarez 4245")
-    print(Purchase)
+    #RF9 aplicar descuento
+    print(op.process_purchase({"Laptop": 1},"DISCOUNT30", "Av Juarez 4545"))
+
     
 
     
