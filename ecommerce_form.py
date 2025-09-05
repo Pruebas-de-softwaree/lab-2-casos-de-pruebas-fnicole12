@@ -55,8 +55,8 @@ class OnlinePurchase:
 if __name__ == "__main__":
     op = OnlinePurchase()
 
-    #RF5, cupon invalido
-    print(op.process_purchase({"Laptop": 1},"Dd", "Ave"))
+    #RF10, detalle compra
+    print(op.process_purchase({"Laptop": 1},"", "Ave"))
 
     
 
