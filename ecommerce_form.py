@@ -53,3 +53,9 @@ class OnlinePurchase:
 
 
 if __name__ == "__main__":
+    op = OnlinePurchase()
+
+    #RF8 calcular total, positivo
+    purchase1 = op.process_purchase({"Mouse":50}, "DISCOUNT10", "Av Juarez 4245")
+
+    
