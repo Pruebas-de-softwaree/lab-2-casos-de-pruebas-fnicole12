@@ -55,8 +55,8 @@ class OnlinePurchase:
 if __name__ == "__main__":
     op = OnlinePurchase()
 
-    #RF6, direccion valida, negativo
-    print(op.process_purchase({"Laptop": 1},"DISCOUNT30", "Ave"))
+    #RF4, no aplicar descuento
+    print(op.process_purchase({"Laptop": 1},"", "Ave"))
 
     
 
